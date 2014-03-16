@@ -1,0 +1,22 @@
+{
+	"name": "font-rexbold",
+	"version": "1.0.0",
+	"authors": [
+		"fonts2u.com",
+		"Andrew Dryga <andrew@dryga.com>"
+	],
+	"description": "Rex Bold font repo for using with Bower. Font taken from fonts2u.com.",
+	"main": "stylesheet.css",
+	"keywords": [
+		"font",
+		"rex",
+		"bold",
+		"bower"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"demo.html",
+		"readme.txt"
+	]
+}
