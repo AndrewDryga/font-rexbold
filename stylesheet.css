@@ -1,10 +1,11 @@
 ﻿/* @font-face kit by Fonts2u (http://www.fonts2u.com) */
 @font-face {
 	font-family:"RexBold";
-	src: url("font/Rex_Bold.eot?") format("eot"),
-		 url("font/Rex_Bold.woff") format("woff"),
-		 url("font/Rex_Bold.ttf") format("truetype"),
-		 url("font/Rex_Bold.svg#RexBold") format("svg");
+  src: url("font/Rex_Bold.eot");
+  src: url("font/Rex_Bold.eot?#iefix") format("embedded-opentype"),
+       url("font/Rex_Bold.woff") format("woff"),
+       url("font/Rex_Bold.ttf") format("truetype"),
+       url("font/Rex_Bold.svg#rex_bold_bold") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -12,7 +13,7 @@
 @font-face {
 	font-family:"RexBoldInline";
 	src: url("font/Rex_Bold_Inline.eot");
-	src: url("font/Rex_Bold_Inline.eot?#iefix") format('embedded-opentype'),
+	src: url("font/Rex_Bold_Inline.eot?#iefix") format("embedded-opentype"),
 			 url("font/Rex_Bold_Inline.woff") format("woff"),
 			 url("font/Rex_Bold_Inline.ttf") format("truetype"),
 			 url("font/Rex_Bold_Inline.svg#rex_bold_inlineregular") format("svg");
